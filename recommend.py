@@ -20,7 +20,7 @@ def execute_notebook(notebook_content):
         return {"status": "error", "message": f"Failed to execute notebook: {str(e)}"}
 
 @app.get("/run-notebook")
-async def run_notebook():
+def run_notebook():
     notebook_url = "https://raw.githubusercontent.com/nayera540/recommendation/main/Collaborative%20Filtering%20Recommendation%20System%20Model%20-%20deploy.ipynb"
     notebook_content = requests.get(notebook_url).text
     return execute_notebook(notebook_content)
