@@ -1,0 +1,11 @@
+fastapi
+nbformat
+nbconvert
+numpy
+pandas
+scikit-learn
+uvicorn
+requests
+ipywidgets
+jupyter
+ipykernel
