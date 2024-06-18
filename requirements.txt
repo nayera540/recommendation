@@ -9,3 +9,7 @@ requests
 ipywidgets
 jupyter
 ipykernel
+tabulate
+matplotlib
+seaborn
+pymongo
