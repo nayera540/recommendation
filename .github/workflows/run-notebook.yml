@@ -2,8 +2,8 @@ name: Run Jupyter Notebook
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Runs every day at midnight
-  workflow_dispatch: # Allows manual triggering of the workflow
+    - cron: '*/1 * * * *'  # Runs every 1 minute
+  workflow_dispatch:  # Allows manual triggering of the workflow
 jobs:
   run-notebook-and-push:
     runs-on: ubuntu-latest
