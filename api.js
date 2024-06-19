@@ -4,7 +4,7 @@ const cron = require('node-cron');
 // Function to execute the API call
 async function executeAPI() {
     try {
-        const response = await axios.get('https://nayera26-testapi.hf.space/run-notebook'); 
+        const response = await axios.get('https://nayeraa-techtrackapi.hf.space/run-notebook'); 
         console.log(response.data);
     } catch (error) {
         console.error('Error executing API:', error.message);
